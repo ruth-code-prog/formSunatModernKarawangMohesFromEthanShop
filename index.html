@@ -16,7 +16,7 @@
     <section class="text-gray-600 body-font">
       <form
         id="contact-form"
-        action="https://formspree.io/f/xoqrgpke"
+        action="https://formspree.io/f/myyvoogp"
         method="POST"
       >
         <div
@@ -28,37 +28,21 @@
             <h1
               class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"
             >
-              Data Sunat
+              Appoitment Pasien BPJS
             </h1>
             <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-              Mohon isi kelengkapan data sunat
+              RS Kita
             </p>
-            <img
-              class="lg:w-2/6 md:w-3/6 w-5/6 mb-0 object-cover object-center rounded"
-              alt="hero"
-              src="assets/banner.png"
-            />
           </div>
           <div class="lg:w-1/3 w-full mx-auto px-8">
             <div class="relative flex-grow w-full">
               <label for="full-name" class="leading-7 text-sm text-gray-600"
-                >Nama Lengkap (Anak)</label
+                >Nama Lengkap Pasien</label
               >
               <input
                 type="text"
                 id="full-name"
                 name="full-name"
-                class="w-full bg-white bg-opacity-50 rounded border border-gray-300 focus:border-red-500 focus:bg-transparent focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              />
-            </div>
-            <div class="relative flex-grow w-full py-3">
-              <label for="email" class="leading-7 text-sm text-gray-600"
-                >Email</label
-              >
-              <input
-                type="email"
-                id="email"
-                name="email"
                 class="w-full bg-white bg-opacity-50 rounded border border-gray-300 focus:border-red-500 focus:bg-transparent focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
             </div>
@@ -73,61 +57,48 @@
                 class="w-full bg-white bg-opacity-50 rounded border border-gray-300 focus:border-red-500 focus:bg-transparent focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
             </div>
+            
+            <label for="dokters" class="leading-7 text-sm text-gray-600">Pilih Dokter:</label>
+
+            <select class="w-full bg-white bg-opacity-50 rounded border border-gray-300 focus:border-red-500 focus:bg-transparent focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" name="dokter" id="cars">
+              <option value="dr.Artha"></option>
+              <option value="dr.Artha">dr.Artha</option>
+              <option value="dr.Lani">dr.Lani</option>
+              <option value="dr.Ivo">dr.Ivo</option>
+              <option value="dr.Toni">dr.Lani</option>
+            </select> 
             <div class="relative flex-grow w-full py-3">
-              <label for="riwayatLukaSulitSembuh" class="leading-7 text-sm text-gray-600"
-                >Riwayat Luka Susah Sembuh (Isikan: Ada/ Tidak)</label
+              <label for="full-name" class="leading-7 text-sm text-gray-600" htmlFor="date"
+                >Tanggal Kunjungan</label
               >
               <input
-                type="riwayatLukaSulitSembuh"
-                id="riwayatLukaSulitSembuh"
-                name="riwayatLukaSulitSembuh"
+                required type="date" 
+                name="" id="" 
                 class="w-full bg-white bg-opacity-50 rounded border border-gray-300 focus:border-red-500 focus:bg-transparent focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
             </div>
+
             <div class="relative flex-grow w-full py-3">
-              <label for="riwayatLukaPerdarahan" class="leading-7 text-sm text-gray-600"
-                >Riwayat Kelainan Darah/ Lama berhenti perdarahan jika Luka (Isikan: Ada/ Tidak)</label
+              <label for="full-name" class="leading-7 text-sm text-gray-600" htmlFor="time"
+                >Jam Kunjungan</label
               >
               <input
-                type="riwayatLukaPerdarahan"
-                id="riwayatLukaPerdarahan"
-                name="riwayatLukaPerdarahan"
+                required type="time"
+                name="" id="" 
                 class="w-full bg-white bg-opacity-50 rounded border border-gray-300 focus:border-red-500 focus:bg-transparent focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
             </div>
-            <div class="relative flex-grow w-full py-3">
-              <label for="riwayatKejang" class="leading-7 text-sm text-gray-600"
-                >Riwayat Kejang(Isikan: Ada/ Tidak)</label
-              >
-              <input
-                type="riwayatKejang"
-                id="riwayatKejang"
-                name="riwayatKejang"
-                class="w-full bg-white bg-opacity-50 rounded border border-gray-300 focus:border-red-500 focus:bg-transparent focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              />
-            </div>
-            <div class="relative flex-grow w-full py-3">
-              <label for="alergi" class="leading-7 text-sm text-gray-600"
-                >Alergi Obat & Makanan, (Isikan: Tidak Ada/ Bila Ada sebutkan)</label
-              >
-              <input
-                type="alergi"
-                id="alergi"
-                name="alergi"
-                class="w-full bg-white bg-opacity-50 rounded border border-gray-300 focus:border-red-500 focus:bg-transparent focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              />
-            </div>
-            <div class="relative flex-grow w-full py-3">
-              <label for="rencanaSunat" class="leading-7 text-sm text-gray-600"
-                >Rencana Sunat (Alamat Anda, Tanggal dan waktu)</label
-              >
-              <textarea
-                type="text"
-                id="rencanaSunat"
-                name="rencanaSunat"
-                class="w-full bg-white bg-opacity-50 rounded border border-gray-300 focus:border-red-500 focus:bg-transparent focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              ></textarea>
-            </div>
+        
+          ------Yuk Uploud Surat Rujukan Anda------
+         <!-- The best place for this one is your <HEAD> tag -->
+          <script>UPLOADCARE_PUBLIC_KEY = "demopublickey";</script>
+          <script 
+          src="https://ucarecdn.com/libs/widget/3.x/uploadcare.full.min.js" 
+          charset="utf-8"></script>
+
+          <!-- This is where the widget will be. Don't forget the name attribute! -->
+          <input type="hidden" role="uploadcare-uploader" name="my_file" />
+
             <div class="w-full h-4"></div>
             <button
               type="submit"
@@ -145,4 +116,13 @@
 
     <script src="js/script.js"></script>
   </body>
+  <style>
+    body {
+      background-image: url('https://firebasestorage.googleapis.com/v0/b/rumah-sakit-kita-d1035.appspot.com/o/background.png?alt=media&token=996f1534-8428-41cd-8db7-992d06c47e91');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center; 
+      background-size: 40%;
+    }
+    </style> 
 </html>
